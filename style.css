@@ -1,0 +1,86 @@
+* {
+    font-family: outfit;
+}
+
+#hero {
+    background-image: url(./img-hero.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.deskripsi-hero {
+    padding: 150px;
+}
+
+.deskripsi-hero h1 {
+    font-size: 70px;
+}
+
+#hobi {
+    background-image: url(./img-hobi.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: right;
+}
+
+.deskripsi-hobi {
+    padding: 50px;
+    color: black;
+}
+
+.deskripsi-hobi h1 {
+    font-size: 50px;
+    padding-top: 65px;
+}
+
+#skill {
+    background-image: url(./img-skill.jpg);
+    background-size: cover;
+    height: 700px;
+    color:wheat;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.deskripsi-Myskill {
+    padding: 50px;
+}
+
+
+.deskripsi-Myskill h1 {
+    font-size: 50px;
+    box-sizing: border-box;
+}
+
+.deskripsi-Myskill p {
+    font-size: 25px;
+}
+.deskripsi-Myskill button {
+    width: 150px;
+    height: 50px;
+    background: none;
+    color: white;
+    font-size: 16px;
+    border: 1px solid wheat;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.deskripsi-Myskill button  a { 
+    color: white;
+
+}
+
+.deskripsi-Myskill button:hover {
+background-color: white;
+color: black;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
